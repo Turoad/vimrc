@@ -5,6 +5,7 @@
 "===============================
 
 "basic
+syntax on
 set nocompatible
 set fileformats=unix
 set fileformat=unix
@@ -62,6 +63,7 @@ call vundle#end()
 call glaive#Install()
 
 filetype plugin indent on
+" let g:NERDTreeNodeDelimiter = "\u00a0"
 
 augroup autoformat_settings
   autocmd FileType bzl AutoFormatBuffer buildifier
