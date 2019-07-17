@@ -63,7 +63,7 @@ call vundle#end()
 call glaive#Install()
 
 filetype plugin indent on
-" let g:NERDTreeNodeDelimiter = "\u00a0"
+let g:vim_markdown_folding_disabled = 1
 
 augroup autoformat_settings
   autocmd FileType bzl AutoFormatBuffer buildifier

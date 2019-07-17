@@ -32,6 +32,7 @@ function codefmt_dep() {
     # Install the clang-format
     sudo apt-get install -y clang-format-3.5
     sudo ln -s /usr/lib/llvm-3.5/bin/clang-format /usr/bin/clang-format
+    pip install autopep8
   fi
 }
 
